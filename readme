@@ -1,0 +1,19 @@
+## How to configure unit test with Jest in a new project
+
+#### Open your visual studio code
+
+#### Write the command "node init" in your terminal to initialize a new node project
+
+#### Choose the standards options
+
+#### Install the eslint with the command "npm install eslind -D" in dev mode
+
+#### Generate the eslintrc.js with the command "npx eslint --init"
+
+#### Install Jest with the command "npm i --save-dev jest"
+
+#### Insert the script: "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js" in your package.json
+
+#### Generate a jest configure file with the command "npx jest --init"
+
+#### Select "No" for Typescript (when you don't use ts files), select "node" to environment, "yes" to coverage reports, "v8" to instrumment code and yes to automatically clear mock calls, instances and contexts.
